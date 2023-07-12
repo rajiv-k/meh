@@ -1,6 +1,6 @@
-## meh
+# meh
 
-#### meh message format:
+### meh message format:
 
         0         4         8                16
         +---------+---------+----------------+
@@ -23,3 +23,6 @@
     length(2 bytes): length of message payload following the header
     body (variable): message payload
 
+### Wireshark dissector
+
+Refer [wireshark/README.md](./wireshark/README.md) for installation steps.
